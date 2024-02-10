@@ -1491,6 +1491,7 @@ a, p {
 .our-team .meneger {
   width: 100%;
   font-weight: 400;
+  padding-bottom: 66.67%;
 }
 
 .our-team .meneger__png {
@@ -1519,10 +1520,18 @@ a, p {
 }
 
 .our-team__text {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 32px;
   margin: 15px 0;
+}
+
+.our-team-item_right {
+  padding: 40px 40px 0 0;
+}
+
+.our-team-item_left {
+  padding: 40px 0 0 40px;
 }
 
 .our-team-list {
@@ -1544,7 +1553,7 @@ a, p {
 
 .agreement {
   padding: 80px 0;
-
+  background-color: #fff;
 }
 
 .agreement__title {
