@@ -1,0 +1,105 @@
+.s-contacts-extensible-type-1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+@media screen and (max-width: 959px) {
+    .s-contacts-extensible-type-1 {
+        flex-direction: column;
+    }
+    .s-contacts-extensible-type-1__map {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 960px) {
+    .s-contacts-extensible-type-1 {
+        min-height: 100vh;
+    }
+    .s-contacts-extensible-type-1_left {
+        flex-direction: row-reverse;
+    }
+    .s-contacts-extensible-type-1_left .s-contacts-extensible-type-1__map {
+        right: 0;
+    }
+    .s-contacts-extensible-type-1_right .s-contacts-extensible-type-1__map {
+        left: 0;
+    }
+}
+.s-contacts-extensible-type-1.sb-align-center .s-contacts-extensible-type-1__item {
+    flex-direction: column;
+    align-items: center;
+}
+.s-contacts-extensible-type-1.sb-align-center .s-contacts-extensible-type-1__icon-wrapper {
+    margin-right: 0;
+}
+.s-contacts-extensible-type-1__map {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 639px) {
+    .s-contacts-extensible-type-1__map {
+        height: 284px;
+    }
+}
+@media (min-width: 640px) and (max-width: 959px) {
+    .s-contacts-extensible-type-1__map {
+        height: 460px;
+    }
+}
+@media screen and (min-width: 960px) {
+    .s-contacts-extensible-type-1__map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 50%;
+        height: 100%;
+        margin-bottom: 0 !important;
+    }
+    .s-contacts-extensible-type-1__map_full-width {
+        width: 100%;
+    }
+    .s-contacts-extensible-type-1__content {
+        margin-bottom: 0 !important;
+    }
+}
+.s-contacts-extensible-type-1__map-data {
+    width: 100%;
+    height: inherit;
+}
+.s-contacts-extensible-type-1__item {
+    display: flex;
+}
+.s-contacts-extensible-type-1__item:first-child {
+    margin-top: 0 !important;
+}
+.s-contacts-extensible-type-1__icon-wrapper {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #e7e8ea;
+    border-radius: 50%;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.s-contacts-extensible-type-1__icon,
+.s-contacts-extensible-type-1__icon-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.s-contacts-extensible-type-1__icon {
+    width: 24px;
+    height: 24px;
+}
+.s-contacts-extensible-type-1__info {
+    flex-grow: 1;
+    min-width: 0;
+    padding-top: 4px;
+}
