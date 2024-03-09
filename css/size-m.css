@@ -28,9 +28,9 @@
 }
 @media screen and (max-width: 639px) {
     .sb-content-size_m .sb-font-h2 {
-        --font-size: 28px;
-        font-size: 28px;
-        line-height: 36px;
+        --font-size: 24px;
+        font-size: 24px;
+        line-height: 28px;
     }
 }
 @media (min-width: 640px) and (max-width: 959px) {
@@ -140,9 +140,9 @@
 }
 @media screen and (max-width: 639px) {
     .sb-content-size_m .sb-font-p1 {
-        --font-size: 20px;
-        font-size: 20px;
-        line-height: 28px;
+        --font-size: 14px;
+        font-size: 14px;
+        line-height: 20px;
     }
 }
 @media (min-width: 640px) and (max-width: 959px) {
